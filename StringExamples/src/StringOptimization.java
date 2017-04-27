@@ -39,5 +39,6 @@ public class StringOptimization {
          + " String objects with intern(): " 
          + (endTime2 - startTime2)
          + " ms");
+      System.out.println("hagsggsg")
    }
 }
