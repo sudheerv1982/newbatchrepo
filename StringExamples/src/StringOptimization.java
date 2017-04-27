@@ -24,7 +24,7 @@ public class StringOptimization {
          + (endTime1 - startTime1)
          + " ms");
       long startTime2 = System.currentTimeMillis();
-      
+      sidhu
       for(int i = 0;i<50000;i++) {
          variables[i] = new String("hello");
          variables[i] = variables[i].intern();	//JVM maintains unique String objects 
